@@ -1,0 +1,11 @@
+{
+  "name": "chipkali-tg",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "node-telegram-bot-api": "^0.61.0",
+    "uuid": "^9.0.0"
+  }
+}
