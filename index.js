@@ -10,7 +10,7 @@ app.get("/", (req, res) => res.send("🤖 Chipkaliii Bot is alive and running!")
 app.listen(process.env.PORT || 3000, () => console.log("Server running..."));
 
 // ==== CONFIG ====
-const TELEGRAM_TOKEN = "7923628657:AAHGL5B9XzYC_VvP_llN6LKTpU4WdMNgIsY";
+const TELEGRAM_TOKEN = "7923628657:AAGtwSx-rlHrElP79DjXcnkMpLBihpzma3c";
 const ELEVEN_API_KEY = "sk_8318cb9d27b1b4e412d9da0fdc3621ae076ba580b277af0a";
 const VOICE_ID = "EXAVITQu4vr4xnSDxMaL"; // female voice
 
