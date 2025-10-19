@@ -13,7 +13,7 @@ const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
 bot.on("message", async (msg) => {
   const text = msg.text || "";
   const chatId = msg.chat.id;
-  const botMentioned = text.includes("@Chipkaliii_Bot") || msg.reply_to_message?.from?.username === "YourBotUsername";
+  const botMentioned = text.includes("@Chipkaliii_Bot") || msg.reply_to_message?.from?.username === "@Chipkaliii_Bot";
 
   if (!botMentioned) return;
 
